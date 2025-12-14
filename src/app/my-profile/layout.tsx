@@ -25,7 +25,7 @@ import MenuIcon from "@/Components/Icons/MenuIcon";
 import { TbMailOpened, TbNews, TbSpeakerphone } from "react-icons/tb";
 import { PiChatCenteredTextBold } from "react-icons/pi";
 import { RiUserAddLine, RiUserFollowLine } from "react-icons/ri";
-import { Apartment, ArrowBack } from "@mui/icons-material";
+import { Apartment } from "@mui/icons-material";
 
 // Sidebar configuration extracted outside component to avoid re-creation.
 const baseSidebarList = [
@@ -70,7 +70,7 @@ const baseSidebarList = [
   {
     id: 7,
     name: "دنبال شده‌ها",
-    icon: <RiUserFollowLine size={22} />,
+    icon: <RiUserFollowLine />,
     url: "/my-profile/following",
   },
 ];
@@ -139,7 +139,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
   // Poll unread messages count every 30 seconds while on any my-profile route
   useEffect(() => {
-    let intervalId: NodeJS.Timer | null = null;
+    let intervalId: ReturnType<typeof setInterval> | null = null;
+
     const fetchUnread = async () => {
       try {
         const res = await axiosInstance.get<{ success: boolean; data: number }>(
@@ -152,10 +153,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         // silently ignore
       }
     };
+
     if (isUserLoaded && isAuthenticated) {
       fetchUnread(); // initial
       intervalId = setInterval(fetchUnread, 30000);
     }
+
     return () => {
       if (intervalId) clearInterval(intervalId);
     };
