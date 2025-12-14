@@ -1,0 +1,85 @@
+.rePostContainer {
+  border-radius: 16px;
+  border: 1px solid #e0e0e0;
+  background: #fdfdfd;
+  padding: 14px 16px 14px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.rePostContainer {
+  border-radius: 16px;
+  border: 1px solid #e0e0e0;
+  background: #fdfdfd;
+  padding: 14px 16px 14px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.popover {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 220px;
+  padding: 16px 8px;
+  align-items: flex-end;
+}
+
+.newsCard {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: flex-start;
+  width: 100%;
+
+  @media screen and (max-width: 1025px) {
+    gap: 28px;
+  }
+}
+
+.newsCard span {
+  margin: 0 !important;
+}
+
+.commentsLayoutStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 42px;
+  width: 100%;
+  padding-left: 8px;
+  align-items: flex-start;
+}
+
+.commentsInputStyle {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.buttonSend {
+  height: 52px;
+  border-radius: 12px;
+  width: 160px;
+  margin-bottom: 32px;
+  margin-top: 136px;
+  display: flex;
+}
+
+.commentTextStyle {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: end;
+  color: #212121;
+  margin: 0px;
+  padding: 0px;
+}

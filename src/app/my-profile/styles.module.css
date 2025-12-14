@@ -1,0 +1,88 @@
+.listCategoryStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 270px;
+  min-height: 100%;
+  height: 100%;
+}
+
+.listCompanyStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.fallbackCircle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #9c27b0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fallbackLetter {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.followersListMainDiv {
+  overflow-x: hidden;
+  width: 100%;
+  margin: 24px auto;
+  gap: 18px;
+}
+.followerCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.followerInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.followerImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.followButton {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid black;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.unfollowButton {
+  background-color: white;
+  color: #616161;
+  border: 1px solid black;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid #cdcdcd;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: inherit;
+}

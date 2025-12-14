@@ -1,0 +1,16 @@
+.mainStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  text-align: center;
+}
+
+.mainStyle table {
+  margin: 0 auto;
+}

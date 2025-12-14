@@ -1,0 +1,60 @@
+.mainStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  overflow-x: hidden;
+  width: 100%;
+  margin-top: 28px;
+}
+
+.boxButtonStyle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.boxButtonTextStyle {
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: #212121;
+}
+
+.boxEnglishButtonTextStyle {
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: #757575;
+  margin: 0px 10px;
+}
+
+.detailDescriptionBoxStyle {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #212121;
+}
+
+/* mobile */
+@media only screen and (max-width: 1200px) {
+  .mainStyle {
+    padding-right: 16px;
+  }
+}
+
+.detailStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  overflow-x: hidden;
+  width: 100%;
+  margin-top: 20px;
+  padding-right: 70px;
+  margin-left: 10px;
+  margin-bottom: 48px;
+  gap: 24px;
+}

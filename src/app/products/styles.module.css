@@ -1,0 +1,68 @@
+.formControlStyle {
+  border: 1px solid #0068ff1f;
+  border-radius: 100%;
+  width: 278px;
+  height: 42px;
+}
+
+.individualCompanyStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-inline: auto;
+  max-width: 864px;
+  padding: 28px;
+  border: 1px solid #eeeeee;
+  width: 100%;
+  gap: 24px;
+  border-radius: 16px;
+  margin-top: 24px;
+  height: 196px;
+}
+
+.card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 18px;
+  min-width: 300px;
+  max-width: 400px;
+  gap: 17px;
+  height: 100px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #212121;
+  text-align: right;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listOfTheCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.listOfTheMainCards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}

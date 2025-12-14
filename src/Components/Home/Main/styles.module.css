@@ -1,0 +1,70 @@
+.refresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 18px;
+  border-radius: 100px;
+  border: 1px solid #fb8c00;
+  background: #faf5ed;
+  color: #fb8c00;
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  width: max-content;
+  font-family: IRANYekanX !important;
+}
+
+
+
+.cardContainer {
+  border-radius: 16px !important;
+  border: 1px solid #e0e0e0 !important;
+  box-shadow: none !important;
+  background: #fff;
+  width: 198px;
+  height: 198px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 12px;
+}
+
+.relatedCardContainer {
+  /* border-left: 1px solid #e0e0e0 !important; */
+  box-shadow: none !important;
+  width: 198px;
+  /* height: 198px; */
+  /* padding-top: 20px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: transparent;
+  /* margin: 0 12px; */
+}
+
+.CardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 16px !important;
+  padding-bottom: 0 !important;
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.spinnerIcon {
+
+  animation: spin 1s linear infinite;
+  color: #fb8c00;
+  font-size: large;
+  margin-right: 5px;
+}

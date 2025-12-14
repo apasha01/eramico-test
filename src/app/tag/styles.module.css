@@ -1,0 +1,53 @@
+.circleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 40px 20px;
+}
+
+.circleBorder {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tagsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 40px;
+  width: 100%;
+}
+
+.tagItem {
+  text-decoration: none;
+  color: #0070f3;
+  padding: 6px 12px;
+  background: white;
+  border-radius: 20px;
+  border: 1px solid #0070f3;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+}
+
+.tagItem:hover {
+  background: #0070f3;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 4px 16px rgba(0, 112, 243, 0.3);
+}
+
+.tagCount {
+  font-size: 0.85em;
+  opacity: 0.7;
+  margin-right: 4px;
+}

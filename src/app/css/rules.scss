@@ -1,0 +1,17 @@
+@for $i from 7 through 35 {
+  .fs-#{$i} {
+    font-size: $i + px !important;
+  }
+}
+
+@for $i from 100 through 500 {
+  .fw-#{$i} {
+    font-weight: $i !important;
+  }
+}
+
+@for $i from 2 through 50 {
+  .radius-#{$i} {
+    border-radius: $i + px !important;
+  }
+}

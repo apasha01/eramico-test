@@ -1,0 +1,10 @@
+.footerStyle {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 35px;
+  border-top: 1px solid #eeeeee;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}

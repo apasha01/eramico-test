@@ -1,0 +1,81 @@
+.headerStyle {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px 24px 5px 24px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #eeeeee;
+  width: 100%;
+  min-height: 122px;
+  align-items: center;
+}
+
+.listCategoryStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: hidden;
+  width: 340px;
+  min-height: 100%;
+  height: 100%;
+}
+
+.listCompanyStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-inline: auto;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  border-right: 1px solid #eeeeee;
+}
+
+.personalInfoMainDiv {
+  margin-top: 42px;
+  margin-bottom: 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  margin-inline: auto;
+  padding-inline: 100px;
+  width: 100%;
+  height: 100%;
+}
+
+.rowSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.transactionInfoMainDiv {
+  margin-top: 42px;
+  margin-bottom: 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-inline: auto;
+  padding-inline: 128px;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1366px) {
+  .personalInfoMainDiv {
+    padding-inline: 16px;
+  }
+}

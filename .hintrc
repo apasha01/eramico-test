@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "no-inline-styles": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "min-width: fit-content",
+          "scrollbar-width",
+          "scrollbar-width: none",
+          "clip-path: view-box"
+        ]
+      }
+    ]
+  }
+}

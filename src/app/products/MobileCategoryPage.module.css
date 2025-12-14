@@ -1,0 +1,84 @@
+  .mobileMainStyle {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding: 10px;
+  border-top: #575555 1px solid;
+}
+
+.sidebar {
+  width: 111px;
+  padding: 0px;
+  border-radius: 8px;
+}
+
+.sidebarTitle {
+  margin-bottom: 10px;
+}
+
+.categoryList {
+  list-style: none;
+  padding: 0;
+
+}
+
+.categoryButton {
+  width: 111px;
+  height: 79px;
+  display: block;
+  margin-bottom: 5px;
+  padding: 5px 0;
+  text-align: center;
+  background-color: #f9f9f9;
+  color: #333;
+  border: none;
+  font-size: 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.categoryButton:hover {
+  background-color: #f5f5f5;
+}
+
+.categoryButton:active {
+  background-color: white !important;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.accordion {
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.mainCategoryTitle {
+  font-weight: bold;
+}
+
+.categoryTitle {
+  margin-bottom: 5px;
+  color: black;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+.listOfTheCardsMobile {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(95px, 1fr));
+  justify-content: space-between;
+  gap: 30px;
+  color:#616161;
+  font-size: 12px;
+}
+
+.noProductContainer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}

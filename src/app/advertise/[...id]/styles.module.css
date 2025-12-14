@@ -1,0 +1,82 @@
+.detailTitleBoxStyle {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: start;
+  color: #757575;
+  text-wrap: nowrap;
+}
+
+.detailDescriptionBoxStyle {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0em;
+  color: #212121;
+}
+
+.detailStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 48px;
+  gap: 24px;
+}
+
+.confirmBadge {
+  top: -20px;
+}
+
+.relatedContainer {
+  background: #0d47a108;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+.textStart {
+  text-align: start;
+}
+
+.adContainerStyle {
+  padding: 0 58px 0 30px;
+}
+
+.pageTitleStyle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.producTitleStyle {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.producTitleFaStyle {
+  color: #212121;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 31px;
+}
+
+.producTitleEnStyle {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0em;
+  color: #757575;
+}
+
+.sellerNameStyle {
+  padding-bottom: 29px;
+}

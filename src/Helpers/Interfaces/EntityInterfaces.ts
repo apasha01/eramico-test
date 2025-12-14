@@ -1,0 +1,64 @@
+export interface CompanyInterface {
+  id: number;
+  title: string;
+  code: string | null;
+  companyTypeId: number;
+  nationalCode: string | null;
+  registrationCode: string | null;
+  economyCode: string | null;
+  email: string | null;
+  province: string | null;
+  city: string | null;
+  address: string | null;
+  zipCode: string | null;
+  telephone: string | null;
+  cellphone: string | null;
+  fax: string | null;
+  webpage: string | null;
+  ceoName: string | null;
+  ceoEmail: string | null;
+  ceoPhone: string | null;
+  avatarId: string | null;
+  isDisabled: boolean;
+  isAccepted: boolean;
+  shortIntroduction: string | null;
+  introduction: string | null;
+  verifyStatus: number;
+  verifyExpirationDate: string | null;
+  insuranceStatus: number;
+  createdDate: string | null;
+  lastModifiedDate: string | null;
+  cultureId: string | null;
+  ownerId: number;
+  avatar: string | null;
+  companyTypeTitle: string | null;
+  verifyStatusTitle: string | null;
+  verifyStatusIdentity: string | null;
+  isChosen: boolean;
+  isVerified: boolean;
+  isSafe: boolean;
+  isSubscribed: boolean;
+  subscriptionAvatar: string | null;
+  categories: CompanyCategoryInterface[];
+  categoryIds: number[];
+  createdDatePersian: string | null;
+  lastModifiedDatePersian: string | null;
+  membershipPeriod: string | null;
+  followerCount: number;
+  isFollowed: boolean;
+}
+
+export interface CompanyCategoryInterface {
+  id: number;
+  parentId: number | null;
+  title: string;
+  code: string;
+  iconId: number;
+  categoryTypeId: number;
+  categoryObjectTypeId: number | null;
+  hasPrice: boolean;
+  description: string | null;
+  orderNo: number;
+  isDisabled: boolean;
+  cultureId: string | null;
+}

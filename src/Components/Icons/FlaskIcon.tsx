@@ -1,0 +1,43 @@
+import React from "react";
+
+const FlaskIcon = () => {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clipPath="url(#clip0_1631_3022)">
+        <path
+          d="M9 3H15"
+          stroke="#484848"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M10 9H14"
+          stroke="#484848"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M10.0009 3V9L6.00091 20C5.95266 20.0971 5.92761 20.204 5.92773 20.3124C5.92786 20.4208 5.95316 20.5277 6.00164 20.6246C6.05011 20.7216 6.12044 20.806 6.20708 20.8711C6.29372 20.9362 6.3943 20.9804 6.50091 21H17.5009C17.6075 20.9804 17.7081 20.9362 17.7947 20.8711C17.8814 20.806 17.9517 20.7216 18.0002 20.6246C18.0487 20.5277 18.0739 20.4208 18.0741 20.3124C18.0742 20.204 18.0492 20.0971 18.0009 20L14.0009 9V3"
+          stroke="#484848"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_1631_3022">
+          <rect width="24" height="24" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};
+export default FlaskIcon;

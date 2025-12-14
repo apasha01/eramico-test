@@ -1,0 +1,57 @@
+.formControlStyle {
+  border: 1px solid #0068ff1f;
+  border-radius: 100%;
+  width: 278px;
+  height: 42px;
+}
+
+.individualCompanyStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-inline: auto;
+  padding: 28px;
+  border: 1px solid #eeeeee;
+  width: 90%;
+  gap: 24px;
+  border-radius: 16px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.wantToFollowButtonStyle {
+  padding: 5px !important;
+}
+
+@media (max-width: 992px) {
+  .individualCompanyStyle {
+    gap: 16px;
+    padding-right: 34px;
+    width: 86%;
+  }
+
+  .SmCompaniesFs {
+    font-size: 18px !important;
+    white-space: nowrap !important;
+  }
+
+  .wantToFollowButtonStyle {
+    padding: 5px !important;
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .individualCompanyStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 5px;
+  }
+  .SmCompaniesFs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

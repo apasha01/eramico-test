@@ -1,0 +1,39 @@
+.mainStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.headerStyle {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px 24px 5px 24px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #eeeeee;
+  width: 100%;
+  min-height: 122px;
+  align-items: center;
+}
+
+.LinkToDashboard {
+  text-decoration: none;
+  color: #212121;
+  border: 1px solid #e0e0e0;
+  border-radius: 21px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  background: #fff;
+  gap: 4px;
+}
+
+.LinkToDashboard:hover {
+  color: #fb8c00;
+}

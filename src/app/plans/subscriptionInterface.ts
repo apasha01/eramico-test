@@ -1,0 +1,36 @@
+export interface SubscriptionType {
+  id: number;
+  title: string;
+  price: number;
+  tax: number;
+  discount: number;
+  taxAmount: number;
+  discountAmount: number;
+  finalPrice: number;
+  months: number;
+  isOfficial: boolean;
+  verifyUser: boolean;
+  verifyCompany: boolean;
+  exclusiveCompany: boolean;
+  writePost: boolean;
+  advertiseCount: number;
+  inquiryCount: number;
+  inquiryResponseCount: number;
+  adsInFeed: boolean;
+  chosenCompany: boolean;
+  specialOfferCount: number;
+  pinSellerCount: number;
+  feedBanner: boolean;
+  targetedBanner: boolean;
+  reportageCount: number;
+  marketingEmailCount: number;
+  telegramCount: number;
+  priority: number;
+  description: string | null;
+  isDisabled: boolean;
+  isTemporary: boolean;
+  countActive: number;
+  countPurchased: number;
+  color: string;
+  [key: string]: string | number | boolean | null;
+}

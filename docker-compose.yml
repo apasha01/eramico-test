@@ -1,0 +1,19 @@
+version: '3.9'
+services:
+  eranico-frontend-ssr:
+    build:
+      context: .
+      dockerfile: Dockerfilesitenextjs
+    networks:
+      mybackendnetwork:
+        ipv4_address: 172.30.0.107
+    # volumes:
+    #   - ./next.config.js:/next.config.js
+    ports:
+      - '3000:3000'
+    image: eranico-frontend-ssr
+    restart: always
+
+networks:
+  mybackendnetwork:
+    external: true

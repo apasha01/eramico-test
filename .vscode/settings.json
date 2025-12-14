@@ -1,0 +1,8 @@
+{
+    "i18n-ally.localesPaths": [
+        "src/app/lang",
+        "src/app/my-profile/messages"
+    ],
+    "prettier.jsxSingleQuote": false,
+    "prettier.singleQuote": false
+}

@@ -1,0 +1,15 @@
+.postCard {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: flex-start;
+  width: 100%;
+
+  @media screen and (max-width: 1025px) {
+    gap: 28px;
+  }
+}
+
+.postCard span {
+  margin: 0 !important;
+}

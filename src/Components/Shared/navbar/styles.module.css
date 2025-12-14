@@ -1,0 +1,98 @@
+.mainStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.listCategoryStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: hidden;
+  width: 340px;
+  min-width: 340px;
+  height: 670px;
+  padding-bottom: 32px;
+  border-left: 1px solid #eeeeee;
+  background: #fafafa;
+}
+
+.dividerStyle {
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.listSubcategoryStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow-x: hidden;
+  width: 100%;
+  padding: 28px;
+  gap: 28px;
+}
+
+.mainListSubcategoryStyle {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(auto, max-content);
+  gap: 42px;
+  justify-content: start;
+  align-items: start;
+  overflow-x: hidden;
+  width: 100%;
+  height: 560px;
+  overflow-y: auto;
+  grid-auto-flow: dense;
+}
+
+.eachSubcategoryStyleList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  gap: 10px;
+}
+
+.megaMenuContainerStyle {
+  position: absolute;
+  top: 108px;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s ease;
+  z-index: 1000;
+}
+
+.megaMenuContainerStyle.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.megaMenuButtonStyle {
+  color: inherit;
+}
+
+.megaMenuButtonActiveStyle {
+  color: #fb8c00;
+}
+
+.headContainerStyle {
+  border-bottom: 1px solid #eee;
+  padding-inline: 24px;
+}

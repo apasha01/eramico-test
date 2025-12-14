@@ -1,0 +1,259 @@
+.VerifyCompanyStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  max-width: 864px;
+  padding: 28px;
+  border: 1px solid #eeeeee;
+  width: 100%;
+  gap: 18px;
+  border-radius: 16px;
+  height: 120px;
+}
+
+.followActivityButton {
+  color: #212121;
+  background: #fff;
+  min-height: 52px;
+  transition: " background 200ms";
+  margin-inline: 0px;
+}
+
+.followActivityButtonActive {
+  color: #757575;
+  min-height: 52px;
+  transition: " background 200ms";
+  margin-inline: 0px;
+}
+
+.MultiCompanyStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-inline: auto;
+  width: 100%;
+  gap: 18px;
+  min-height: 120px;
+  height: max-content;
+}
+
+.RegisterStatusContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 12px;
+  position: relative;
+  padding: 25px 5px 20px 5px;
+  margin-top: 1rem;
+}
+
+.stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  gap: 4px;
+}
+
+.iconContainer {
+  background-color: #ececec;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  z-index: 2;
+}
+
+.active {
+  background-color: transparent;
+  border: 2px solid #424242;
+}
+
+.active svg path {
+  stroke: #424242;
+}
+
+.passed {
+  background-color: #424242;
+}
+
+.passed svg path {
+  stroke: #fff;
+}
+
+.title {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  color: #40404066;
+  margin-top: 8px;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+
+.activeText {
+  color: #0a1a16;
+}
+
+.line {
+  width: 50%;
+  border-bottom: 2px solid #424242;
+  margin: 0 5px;
+  position: absolute;
+  top: 30%;
+  right: 75%;
+}
+
+.personalInfoMainDiv {
+  margin-top: 42px;
+  margin-bottom: 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  margin-inline: auto;
+  padding-inline: 128px;
+  width: 100%;
+  height: 100%;
+}
+
+.rowSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.progressBar {
+  width: 100px;
+  height: 6px;
+  background-color: #00c853;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.progressBarInner {
+  height: 6px;
+
+  background-color: #f2f2f2;
+
+  transition: width 0.3s ease-in-out;
+}
+
+.personalGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 44px;
+  grid-row-gap: 36px;
+}
+
+.personalContactGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 44px;
+  grid-row-gap: 36px;
+  grid-template-rows: auto auto auto;
+}
+
+.personalContactGrid > :nth-child(3) {
+  grid-column: 1 / 2;
+}
+
+.personalContactGrid > :nth-child(4) {
+  grid-column: 1 / -1;
+}
+
+.personalContactGrid .column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.personalContactGrid .column .rowSpaceBetween {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 8px 16px 8px 8px;
+}
+
+.personalGrid .column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.personalGrid .column .rowSpaceBetween {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 8px 16px 8px 8px;
+}
+
+.personalGridColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.profileInputBorderStyle {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 8px 16px 8px 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.activityMainDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 17px;
+  margin-top: 20px;
+}
+
+.activityGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.activityButton {
+  border-radius: 16px;
+  transition: " background 200ms";
+  padding: "0px";
+}
+
+.mainSocialDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin-bottom: 28px;
+}
+.SocialGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 36px;
+}
+
+.SocialGrid .column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.SocialGrid .column .rowSpaceBetween {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 8px 16px 8px 8px;
+  height: 48px;
+}

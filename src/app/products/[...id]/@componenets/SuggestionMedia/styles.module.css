@@ -1,0 +1,38 @@
+.cardContainer {
+  border-radius: 16px !important;
+  border: 1px solid #e0e0e0 !important;
+  box-shadow: none !important;
+  background: #fff;
+  width: 198px;
+  height: 198px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 12px;
+}
+
+.CardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 0px !important;
+}
+
+.FollowButton {
+  width: max-content;
+  height: 36px;
+  flex-shrink: 0;
+  color: #212121 !important;
+  text-align: center;
+  font-family: IRANYekanX;
+  font-size: 13px !important;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 100px;
+  border: 1px solid #212121 !important;
+  align-self: center;
+}

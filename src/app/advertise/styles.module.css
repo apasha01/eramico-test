@@ -1,0 +1,21 @@
+.formControlStyle {
+  border: 1px solid #0068ff1f;
+  border-radius: 100%;
+  width: 278px;
+  height: 42px;
+}
+
+.individualCompanyStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-inline: auto;
+  max-width: 864px;
+  padding: 28px;
+  border: 1px solid #eeeeee;
+  width: 100%;
+  gap: 24px;
+  border-radius: 16px;
+  margin-top: 24px;
+  height: 196px;
+}

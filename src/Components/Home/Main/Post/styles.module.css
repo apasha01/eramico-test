@@ -1,0 +1,23 @@
+
+.rePostContainer {
+  border-radius: 16px;
+  border: 1px solid #E0E0E0;
+  background: #FDFDFD; 
+  padding: 14px 16px 14px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  }
+
+  .rePostContainer {
+    border-radius: 16px;
+    border: 1px solid #E0E0E0;
+    background: #FDFDFD; 
+    padding: 14px 16px 14px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    }
+  
